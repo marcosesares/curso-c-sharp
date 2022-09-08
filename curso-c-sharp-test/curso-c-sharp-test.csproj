@@ -21,4 +21,10 @@
     <ProjectReference Include="..\curso-c-sharp\curso-c-sharp.csproj" />
     <ProjectReference Include="..\encapsulamento\encapsulamento.csproj" />
   </ItemGroup>
+  <ItemGroup>
+    <None Remove="CodeWars\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="CodeWars\" />
+  </ItemGroup>
 </Project>
